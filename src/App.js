@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='nav'>Ingredients and Recipes</h1>
-      <p className="nav">know what's in your fav meal</p>
+      <p className="nav">know what's in your favourite meal</p>
       <div>
       <form onSubmit={getSearch} className ="search-form">
         <input placeholder='search for your favourite food item' className="search-bar" type="text" value={search} onChange={updateSearch}/>
